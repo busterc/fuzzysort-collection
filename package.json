@@ -1,0 +1,56 @@
+{
+  "name": "fuzzysort-collection",
+  "version": "1.0.0",
+  "description": "Fast SublimeText-like fuzzy search for collections",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "https://about.me/buster"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "fuzzy",
+    "search",
+    "sort",
+    "filter",
+    "sublime",
+    "sublimetext",
+    "collection",
+    "collections",
+    "typeahead",
+    "autocomplete",
+    "fuzzysearch"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "busterc/fuzzysort-collection",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fuzzysort": ">=0.5.0",
+    "get-value": "^2.0.6"
+  }
+}
