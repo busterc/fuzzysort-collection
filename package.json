@@ -25,12 +25,12 @@
     "fuzzysearch"
   ],
   "devDependencies": {
-    "coveralls": "^2.13.1",
-    "nsp": "^2.6.3",
-    "eslint": "^4.1.0",
-    "eslint-config-xo-space": "^0.16.0",
-    "jest": "^19.0.2",
-    "jest-cli": "^20.0.0"
+    "coveralls": "^3.0.2",
+    "nsp": "^3.2.1",
+    "eslint": "^5.4.0",
+    "eslint-config-xo-space": "^0.20.0",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0"
   },
   "scripts": {
     "prepublish": "nsp check",
@@ -51,6 +51,6 @@
   "license": "ISC",
   "dependencies": {
     "fuzzysort": ">=0.5.0",
-    "get-value": "^2.0.6"
+    "get-value": "^3.0.1"
   }
 }
