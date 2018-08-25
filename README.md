@@ -1,4 +1,7 @@
 # fuzzysort-collection [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/busterc/fuzzysort-collection.svg)](https://greenkeeper.io/)
+
 > Fast SublimeText-like fuzzy search for collections
 
 Thanks to [@farzher](https://github.com/farzher) for [fuzzysort](https://github.com/farzher/fuzzysort)
